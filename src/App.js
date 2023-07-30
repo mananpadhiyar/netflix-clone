@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Main from "./components/Main";
+import { Route, Routes, redirect } from "react-router-dom";
+import TheHome from "./components/TheHome";
+import { useEffect, useState } from "react";
 
 function App() {
+  let getUser = (data) => {
+    console.log(data);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Routes>
+        <Route path="/" element={<TheHome getUser={getUser} />} />
+
+        <Route path="/browse" element={<Main />} />
+      </Routes>
     </div>
   );
 }

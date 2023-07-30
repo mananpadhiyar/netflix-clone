@@ -1,0 +1,379 @@
+.hero {
+  background-color: black;
+  color: white;
+}
+
+.netflix__logo__home {
+  width: 140px;
+}
+
+.logout__btn {
+  margin-left: 8px;
+}
+
+.banner__part {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 100%,
+      rgba(0, 0, 0, 0) 90%,
+      rgba(0, 0, 0, 0.8) 70%
+    ),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/73334647-ad51-42a9-b07b-93298cc2a8e1/2b0fca4f-c15c-4622-9efc-572c4a408c30/IN-en-20230605-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  height: 685px;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar__home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar__select {
+  background: transparent;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 0 23px;
+}
+
+.sign__btn {
+  background-color: rgb(206, 37, 7);
+  padding: 6px 14px;
+  border-radius: 3px;
+  border: none;
+  font-size: 15px;
+}
+
+.center__text {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.main__title {
+  font-size: 46px;
+  font-weight: 800;
+}
+
+.first__pg {
+  font-size: 23px;
+  margin-top: 14px;
+}
+
+.second__pg {
+  font-size: 19px;
+  margin-top: 14px;
+}
+
+.email-input {
+  background-color: rgb(28, 27, 27);
+  transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1);
+  opacity: 0.5;
+  color: white;
+  padding: 16px;
+  border: 1px solid snow;
+  padding-right: 160px;
+  border-radius: 4px;
+}
+
+.getStarted__btn {
+  background-color: rgb(206, 37, 7);
+  padding: 13px;
+  border: none;
+  border-radius: 4px;
+  font-size: 21px;
+  margin-left: 10px;
+  padding-right: 28px;
+}
+
+hr {
+  height: 8px;
+  background-color: #303030;
+  border: none;
+  margin: 0;
+  opacity: inherit;
+}
+
+.tv {
+  height: 480px;
+  background-color: black;
+}
+
+.feature-1 {
+  height: 400px;
+}
+
+.h2__font__size {
+  color: white;
+  font-weight: 600;
+  font-size: 46px;
+}
+
+.col-bt-text {
+  font-size: 23px;
+  color: white;
+}
+
+.tv-text {
+  margin-left: 80px;
+}
+
+.dw-offline {
+  height: 480px;
+  background-color: black;
+}
+
+.feature-2 {
+  height: 360px;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+.w-everywhere {
+  height: 480px;
+  background-color: black;
+}
+
+.feature-3 {
+  height: 380px;
+  margin-top: 40px;
+}
+
+.child-profile {
+  height: 480px;
+  background-color: black;
+}
+
+.feature-4 {
+  height: 370px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.feature-heading {
+  margin-top: 72px;
+}
+
+.FAQ-sec {
+  height: 920px;
+  background-color: black;
+  height: 100%;
+}
+
+.FAQ-heading {
+  font-size: 46px;
+  color: white;
+  font-weight: 600;
+}
+
+.accordion-div {
+  margin: 20px 20%;
+}
+
+.btn-color {
+  background-color: #696969;
+  color: white;
+  font-size: 24px;
+  padding: 25px 25px;
+}
+
+.collapse-color {
+  background-color: #696969;
+  color: white;
+  font-size: 18px;
+}
+
+.item-color {
+  border: none;
+}
+
+.FAQ-p {
+  margin-top: 65px;
+}
+
+footer {
+  height: 380px;
+  background-color: black;
+
+  color: #777;
+}
+
+footer p {
+  font-size: 15px;
+  padding-top: 70px;
+}
+
+a {
+  display: block;
+  color: #777;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.net-india {
+  font-size: 12px;
+}
+
+.footer-input-gr {
+  margin-bottom: 85px;
+}
+
+.footer-btn {
+  background-color: black;
+  color: #777;
+  border: 1px solid #777;
+  padding: 10px 15px;
+}
+
+.footer-btn i {
+  font-size: 16px;
+  padding-right: 13px;
+}
+
+.n-in {
+  font-size: 13px;
+}
+
+.drop-foooter-width {
+  min-width: 133px;
+  padding: 0;
+  text-align: center;
+}
+
+/* media queries for small screen */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .netflix__logo__home {
+    width: 80px;
+  }
+
+  .navbar__select {
+    display: none;
+  }
+
+  .user__btn {
+    width: 105px;
+    font-size: 13px;
+  }
+
+  .logout__btn {
+    width: 60px;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .sign__btn {
+    width: 80px;
+    font-size: 13px;
+  }
+
+  .main__title {
+    font-size: 28px;
+    font-weight: 800;
+  }
+
+  .first__pg {
+    font-size: 17px;
+    margin-top: 14px;
+  }
+
+  .second__pg {
+    font-size: 15px;
+    margin-top: 14px;
+  }
+
+  .email-input {
+    width: 80%;
+    background-color: rgb(28, 27, 27);
+    transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1);
+    opacity: 0.5;
+    color: white;
+    padding: 12px;
+    border: 1px solid snow;
+    padding-right: 100px;
+    border-radius: 4px;
+  }
+
+  .getStarted__btn {
+    background-color: rgb(206, 37, 7);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 50%;
+    margin-top: 12px;
+  }
+  .tv-text {
+    width: 100%;
+  }
+
+  .h2__font__size {
+    font-size: 30px;
+    width: 100%;
+    margin-left: -35px;
+  }
+
+  .col-bt-text {
+    font-size: 16px;
+    width: 100%;
+    margin-left: -82px;
+  }
+
+  .feature-1,
+  .feature-2,
+  .feature-3,
+  .feature-4 {
+    height: 220px;
+  }
+
+  .feature-2 {
+    margin: 7px;
+  }
+  .feature-3 {
+    height: 200px;
+  }
+  .col-bt-text-f-2 {
+    margin-right: 10px;
+  }
+  .col-bt-text-f-3 {
+    margin-left: -42px;
+  }
+  .feature-4 {
+    height: 200px;
+    margin: 17px;
+  }
+  .col-bt-text-f-4 {
+    margin-left: -25px;
+    font-size: 15px;
+  }
+
+  .FAQ-heading {
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+    margin-right: 28px;
+  }
+
+  .accordion-div {
+    margin: 0px 7%;
+  }
+
+  .btn-color {
+    background-color: #696969;
+    color: white;
+    font-size: 18px;
+    padding: 15px 15px;
+    margin-left: 35.5px;
+  }
+
+  .footer-content > p {
+    font-size: 14px;
+  }
+  .footer-a > a {
+    font-size: 12px;
+    margin-right: 6px;
+  }
+  .dropdown-sm {
+    display: none;
+  }
+}
